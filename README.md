@@ -119,6 +119,7 @@ transition."
 Further Analysis:
 
 -- The data's experts stop short of analyzing why it is that the average highly educated women with reproductive freedom would want to have one child instead of two -- persistent inequity in parenting responsibilities between fathers and mothers, a societal norm of mothers having to compromise their careers while fathers do not, and how to make this change. While they mention a need for new "social policies", they do not elaborate on what the problem is or its solution.
+
 -- Also not included are the relationship between reproductive rights and environmental sustainability, AI reducing the need for human workers, or the possibilities of reforming 
 capitalism, potentially under the direction of increasing numbers of female government officials, CEOs, investors, lobbyists, and campaign donors.
 
