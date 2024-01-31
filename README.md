@@ -114,6 +114,10 @@ services, with potentially devastating consequences."
 -- Says Dr. Natalia Kanem, executive director of the United Nations Population Fund, "protecting the reproductive rights and choices of women will be crucial in this demographic
 transition." 
 
+-- See "The Lancet: World population likely to shrink after mid-century, forecasting major shifts in global population and economic power".
+
+https://www.healthdata.org/news-events/newsroom/news-releases/lancet-world-population-likely-shrink-after-mid-century#:~:text=Improvements%20in%20access%20to%20modern,some%20previous%20estimates%20%5B1%5D%2C
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Further Analysis:
