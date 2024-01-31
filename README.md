@@ -21,13 +21,14 @@ https://doi.org/10.6069/MJND-3671
 
 This dataset is comprised of global population data for 194 countries and territories, disaggregated by age group and sex, forecasted for each year through 2100. These forecasts come from the Global Burden of Disease Study (GBD) 2017 and predictions for deaths, life expectancy, live births, total fertility rate (TFR), and migration. The IHME estimates that the populations of most countries will begin a gradual decline and attributes increased education of women and access to reproductive health services as the primary cause. 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What This Program Does:
 
 -- Analyzes the dataset in 24 different ways for global and national populations, centered around population changes, population peaks, age distributions, and how countries compare to 
 one another. See "menu" in the data.py file for specific types of analysis. 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What This Program Entails: 
 
@@ -37,8 +38,7 @@ What This Program Entails:
 
 -- Provides a user-friendly interface for people to explore their demographic curiosities. 
 
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Some Insights Directly from the Data:
 
@@ -66,8 +66,7 @@ Some Insights Directly from the Data:
 
 -- The birth cohort who are children (under 10 years old) in the 2020s will be the most populous cohort until the 2070s (when they are in their fifties). 
 
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Future Directions:
 
@@ -77,8 +76,7 @@ Future Directions:
 
 -- Find the percentage of the population that is female or male by country and see if this changes
 
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Analysis by the Data's Researchers: 
 
@@ -116,13 +114,11 @@ services, with potentially devastating consequences."
 -- Says Dr. Natalia Kanem, executive director of the United Nations Population Fund, "protecting the reproductive rights and choices of women will be crucial in this demographic
 transition." 
 
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Further Analysis:
 
--- The data's experts stop short of analyzing why it is that the average highly educated women with reproductive freedom would want to have one child instead of two -- persistent inequity in parenting responsibilities between fathers and mothers, a societal norm of mothers having to compromise their careers while fathers do not, and how to make this change. While they mention a need for new "social policies", they do not elaborate on this solution or what the problem is to begin with. 
-
+-- The data's experts stop short of analyzing why it is that the average highly educated women with reproductive freedom would want to have one child instead of two -- persistent inequity in parenting responsibilities between fathers and mothers, a societal norm of mothers having to compromise their careers while fathers do not, and how to make this change. While they mention a need for new "social policies", they do not elaborate on what the problem is or its solution.
 -- Also not included are the relationship between reproductive rights and environmental sustainability, AI reducing the need for human workers, or the possibilities of reforming 
 capitalism, potentially under the direction of increasing numbers of female government officials, CEOs, investors, lobbyists, and campaign donors.
 
