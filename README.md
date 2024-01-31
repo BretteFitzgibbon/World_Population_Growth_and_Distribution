@@ -36,7 +36,7 @@ What This Program Entails:
 
 -- Uses 26 functions to query the data in different ways and gain insights.
 
--- Provides a user-friendly interface for people to explore their demographic curiosities. 
+-- Provides a user-friendly interface for people to explore their demography curiosities. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
