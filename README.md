@@ -28,6 +28,7 @@ What This Program Does:
 one another. See "menu" in the data.py file for specific types of analysis. 
 
 
+
 What This Program Entails: 
 
 -- Uses pandas to parse a dataset with 879,000 rows.
@@ -35,6 +36,7 @@ What This Program Entails:
 -- Uses 26 functions to query the data in different ways and gain insights.
 
 -- Provides a user-friendly interface for people to explore their demographic curiosities. 
+
 
 
 
@@ -66,6 +68,7 @@ Some Insights Directly from the Data:
 
 
 
+
 Future Directions:
 
 -- Find the percentage of the global population comprised by the most populous countries
@@ -73,6 +76,7 @@ Future Directions:
 -- Analyze continents and regions
 
 -- Find the percentage of the population that is female or male by country and see if this changes
+
 
 
 
@@ -111,6 +115,7 @@ services, with potentially devastating consequences."
 
 -- Says Dr. Natalia Kanem, executive director of the United Nations Population Fund, "protecting the reproductive rights and choices of women will be crucial in this demographic
 transition." 
+
 
 
 
