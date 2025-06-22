@@ -20,7 +20,7 @@ def global_change(year1, year2): # change of the global population from one year
   global_population_1 = global_year(year1)
   global_population_2 = global_year(year2)
   global_change = global_population_2 - global_population_1
-  rate_of_change = global_change/global_population_1 # new population as a percentage of the old population
+  rate_of_change = round(global_change/global_population_1, 4) # new population as a percentage of the old population
   return(rate_of_change)
 
 
@@ -37,6 +37,8 @@ def peak_population():
 
 
 def get_countries():
+  print("Country Codes:")
+  print("\n")
   for k, v in countries.items(): # k = country code, v = country name
     print(k, v, "\n")
 
@@ -152,7 +154,7 @@ def growth_rate_per_decade(): # of the global population
 def country_peak_population(country): # the peak population of a country and the year in which this occurred
   max = 0
   year = 0
-  for i in range(2024, 2101): # 2101 not included
+  for i in range(2018, 2101): # 2101 not included
     national = data.loc[(data['location_id'] == country) & (data['year_id'] == i)] # data for that country and year
     national_population = national['val'].sum()//2 # divided by 2 to correct for double counting from the data labeled "All Ages"
     if national_population > max: # population exceeds the population of the previous year
@@ -177,14 +179,18 @@ def top_five(): # changes in the five most populous countries, and in which year
   if end_case != next_case: # if the top five changes in 2100
     print(2100, end_case)
 
-
-def national_change (year1, year2): # change in a country's population from one year to another
-  ranked_list = []
-  for country in countries:
+def national_change (country, year1, year2): # change in a country's population from one year to another
     national_population_1 = national_population(country, year1) # starting year
     national_population_2 = national_population(country, year2) # ending year
     national_change = national_population_2 - national_population_1 # change from starting year to ending year
     rate_of_change = round(national_change/national_population_1, 4) # change as a percentage of the starting year
+    return rate_of_change
+
+
+def national_change_ranked (year1, year2): # countries ranked by their rate of change in a certain timeframe
+  ranked_list = []
+  for country in countries:
+    rate_of_change = national_change(country, year1, year2) 
     ranked_list.append([countries[country], rate_of_change])
   ranked_list.sort(key=lambda x: x[1], reverse=True)  # Sorting by population change in descending order
   return ranked_list
@@ -208,7 +214,7 @@ def country_age_distribution(country, year): # in a certain year, the percentage
     age_data_year = age_data['val'].sum()
     share = round(age_data_year/national_population(country, year), 4) # percentage of the country's population that is in the specified age group
     print(age_groups[age_group], ": ", share)
-
+  
 
 def age_distribution(year): # global
   for age_group in age_groups:
@@ -250,7 +256,7 @@ def largest_age_decade():
   largest_age_groups = [] # list of the largest age group in each decade
   for i in range(2020, 2100, 10): # increment by 10 to begin the following decade
     decade_average = [] # list of age shares of each age range
-    children = average_decade_age_share(0, 5, i, i+10) # children 0-9 are comprised by 5 age groups
+    children = average_decade_age_share(0, 5, i, i+10) # children 0-9 are comprised of 5 age groups
     decade_average.append(children)
     for j in range(5, 19, 2): # most broad age groups in the decade
       decade_average.append(average_decade_age_share(j, j + 2, i, i+10)) # age codes are 2 more than their indices in the age_groups dictionary
@@ -265,7 +271,6 @@ def largest_age_decade():
 
 
 def main():
-  get_countries() # provides alphabetical list of countries and their country codes so users can reference the country codes when inputting data
   while True: # menu is presented after each function is run so that users can run as many functions as they want before deciding to quit
     menu_input = input("Press m for menu: ")
     if menu_input == "m":
@@ -301,7 +306,9 @@ def main():
           print(i + 1, ")", ordered_list[i][0], ordered_list[i][1], '\n')
 
       elif selection == '6':
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         year1 = int(input("Starting year: "))
         year2 = int(input("Ending year: "))
         print("\n")
@@ -314,7 +321,9 @@ def main():
         rank_x_in_year(rank, year)
 
       elif selection == '8':
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         year = int(input("Enter a year: "))
         print("\n")
         rank_in_year(country, year)
@@ -328,7 +337,9 @@ def main():
           print(i + 1, ")", ordered_list[i][0], ordered_list[i][1], '\n')
 
       elif selection == '10':
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         year = int(input("Enter a year: "))
         print("\n")
         print(national_population(country, year))
@@ -347,7 +358,7 @@ def main():
         for k, v in age_groups.items():
           print(k, v, "\n")
         age_group1 = int(input("Age group code (start of range): "))
-        age_group2 = int(input("Age group code (end of range)"))
+        age_group2 = int(input("Age group code (end of range): "))
         year = int(input("Enter a year: "))
         print("\n")
         age_share_rank(age_group1, age_group2, year)
@@ -374,7 +385,9 @@ def main():
         growth_rate_per_decade()
 
       elif selection == '17': 
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         print("\n")
         country_peak_population(country)
 
@@ -383,12 +396,16 @@ def main():
         top_five()
 
       elif selection == '19':
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         print("\n")
         country_growth_rate_per_year(country)
 
       elif selection == '20':
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         print("\n")
         country_growth_rate_per_decade(country)
 
@@ -396,13 +413,15 @@ def main():
         year1 = int(input("Starting year: "))
         year2 = int(input("Ending year: "))
         print("\n")
-        ordered_list = national_change(year1, year2)
+        ordered_list = national_change_ranked(year1, year2)
         print("\n")
         for i in range(0, len(ordered_list)): 
           print(i + 1, ")", ordered_list[i][0], ordered_list[i][1], '\n')
 
       elif selection == '22':
-        country = int(input("Enter a country code: "))
+        get_countries()
+        print("\n")
+        country = int(input("Enter a country code from above: "))
         year = int(input("Enter a year: "))
         print("\n")
         country_age_distribution(country, year)

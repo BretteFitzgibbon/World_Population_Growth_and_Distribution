@@ -46,12 +46,12 @@ menu = """1-Global population in a certain year
 
 20-Country growth rate per decade
 
-21-Which countries experienced the greatest rate of change from one year to another?
+21-Which countries experienced the greatest growth rate from one year to another?
 
 22-Age distribution of a country in a certain year
 
 23-Global age distribution in a certain year
 
-24-Largest age group per decade
+24-Largest age group per decade (this takes approx. 2 min)
 
 """
