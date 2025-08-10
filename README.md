@@ -78,15 +78,32 @@ Future Directions:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Analysis by the Data's Researchers: 
+The General Forecast:
 
 -- Gradual population decline will result from a global increase in education and access to reproductive health services for women.
 
 -- The global total fertility rate (TFR) will be 1.66 children per woman, below the 2.1 replacement level. 
 
--- The most dramatic TFR change will be in Niger, where the current TFR is 7 and the 2100 TFR will be 1.8. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+My Analysis:
+
+-- The data's experts stop short of analyzing why it is that the average highly educated woman with reproductive freedom would want to have one child instead of two -- persistent inequity in parenting responsibilities between fathers and mothers, a societal norm of mothers having to compromise their careers while fathers do not, and how to make this change. While they mention a need for new "social policies", they do not elaborate on what the problem is or its solution.
+
+-- Also not included are the relationship between reproductive rights and environmental sustainability, AI reducing the need for human workers, or the possibilities of reforming 
+capitalism, potentially under the direction of increasing numbers of female government officials, CEOs, investors, lobbyists, and campaign donors.
+
+-- For an environmental analysis, see the Scientific American article "Population Decline Will Change the World for the Better" by Stephanie Feldstein.
+
+https://www.scientificamerican.com/article/population-decline-will-change-the-world-for-the-better/
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Analysis by the Data's Researchers:
 
 -- While the global population will be greater in 2100 than it is today, the issues will be the age and geographic distribution of the population. 
+
+-- The most dramatic TFR change will be in Niger, where the current TFR is 7 and the 2100 TFR will be 1.8. 
 
 -- The population of sub-Saharan Africa will triple by 2100 due to lower death rates, but nations that experience population decline will see slowing economic growth due to a declining workforce and a higher burden on health and social support systems of an aging population.
 
@@ -118,15 +135,4 @@ transition."
 
 https://www.healthdata.org/news-events/newsroom/news-releases/lancet-world-population-likely-shrink-after-mid-century#:~:text=Improvements%20in%20access%20to%20modern,some%20previous%20estimates%20%5B1%5D%2C
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Further Analysis:
-
--- The data's experts stop short of analyzing why it is that the average highly educated woman with reproductive freedom would want to have one child instead of two -- persistent inequity in parenting responsibilities between fathers and mothers, a societal norm of mothers having to compromise their careers while fathers do not, and how to make this change. While they mention a need for new "social policies", they do not elaborate on what the problem is or its solution.
-
--- Also not included are the relationship between reproductive rights and environmental sustainability, AI reducing the need for human workers, or the possibilities of reforming 
-capitalism, potentially under the direction of increasing numbers of female government officials, CEOs, investors, lobbyists, and campaign donors.
-
--- For an environmental analysis, see the Scientific American article "Population Decline Will Change the World for the Better" by Stephanie Feldstein.
-
-https://www.scientificamerican.com/article/population-decline-will-change-the-world-for-the-better/
